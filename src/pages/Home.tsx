@@ -52,7 +52,7 @@ function Home() {
                 <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mt-[-40px] mb-[33px] ">
                   <img
                     className="relative left-[20px] top-[20px]"
-                    src="public/assets/Combined Shape.png "
+                    src="./assets/Combined Shape.png "
                     alt=""
                   />
                 </div>
@@ -72,7 +72,7 @@ function Home() {
                 <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mt-[-40px] mb-[33px] ">
                   <img
                     className="relative left-[20px] top-[20px]"
-                    src="public/assets/Combined Shape.png1.png "
+                    src="./assets/Combined Shape.png1.png "
                     alt=""
                   />
                 </div>
@@ -92,7 +92,7 @@ function Home() {
                 <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mb-[33px] mt-[-40px]">
                   <img
                     className="relative left-[20px] top-[20px]"
-                    src="public/assets/Shape.png"
+                    src="./assets/Shape.png"
                     alt=""
                   />
                 </div>

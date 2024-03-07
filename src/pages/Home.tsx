@@ -46,45 +46,78 @@ function Home() {
             Track how your links are performing across the web with <br /> our
             advanced statistics dashboard.
           </p>
-          <div className="md:flex md:justify-between md:gap-[25px] pt-[56px] md:pb-[56px] ">
+          <div className="md:flex md:justify-between  pt-[56px] md:pb-[56px] ">
             <div className="bg-[#fff] w-[350px] h-[267px] rounded-md">
-              <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px]">
-                <img src="public/assets/Combined Shape.png " alt="" />
+              <div className="pl-[32px]">
+                <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mt-[-40px] mb-[33px] ">
+                  <img
+                    className="relative left-[20px] top-[20px]"
+                    src="public/assets/Combined Shape.png "
+                    alt=""
+                  />
+                </div>
+                <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px] mb-[12px] ">
+                  Brand Recognition
+                </p>
+                <p className="text-[#9E9AA8] md:font-semibold md:text-[15px] font-medium text-[15px]">
+                  Boost your brand recognition with <br /> each click. Generic
+                  links don’t mean a <br /> thing. Branded links help instil{" "}
+                  <br /> confidence in your content.
+                </p>
               </div>
-              <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px]">
-                Brand Recognition
-              </p>
-              <p>
-                Boost your brand recognition with each click. Generic links
-                don’t mean a thing. Branded links help instil confidence in your
-                content.
-              </p>
             </div>
+            <div className="relative top-[170px] bg-[#2BD0D0] w-[25px] h-1"></div>
             <div className="bg-[#fff] w-[350px] h-[267px] rounded-md md:mt-[50px]">
-              <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px]">
-                <img src="public/assets/Combined Shape.png1.png " alt="" />
+              <div className="pl-[32px]">
+                <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mt-[-40px] mb-[33px] ">
+                  <img
+                    className="relative left-[20px] top-[20px]"
+                    src="public/assets/Combined Shape.png1.png "
+                    alt=""
+                  />
+                </div>
+                <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px] mb-[12px]">
+                  Fully Customizable
+                </p>
+                <p className="text-[#9E9AA8] md:font-semibold md:text-[15px] font-medium text-[15px]">
+                  Gain insights into who i <br /> clicking your links. Knowing
+                  when <br /> and where people engage with <br /> your content
+                  helps inform better decisions.
+                </p>
               </div>
-              <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px]">
-                Fully Customizable
-              </p>
-              <p>
-                Gain insights into who is clicking your links. Knowing when and
-                where people engage with your content helps inform better
-                decisions.
-              </p>
             </div>
+            <div className="relative top-[170px] bg-[#2BD0D0] w-[25px] h-1"></div>
             <div className="bg-[#fff] w-[350px] h-[267px] rounded-md md:mt-[100px]">
-              <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px]">
-                <img src="public/assets/Shape.png" alt="" />
+              <div className="pl-[32px]">
+                <div className="bg-[#3A3054] rounded-[50px] w-[88px] h-[88px] mb-[33px] mt-[-40px]">
+                  <img
+                    className="relative left-[20px] top-[20px]"
+                    src="public/assets/Shape.png"
+                    alt=""
+                  />
+                </div>
+                <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px] mb-[12px] ">
+                  Detailed Records
+                </p>
+                <p className="text-[#9E9AA8] md:font-semibold md:text-[15px] font-medium text-[15px]">
+                  Improve brand awareness and content <br /> discoverability
+                  through customizable <br /> links, supercharging audience{" "}
+                  <br /> engagement.
+                </p>
               </div>
-              <p className="text-[#34313D] md:font-bold md:text-[22px] font-medium text-[22px]">
-                Detailed Records
-              </p>
-              <p className="text-[#9E9AA8] ">
-                Improve brand awareness and content discoverability through
-                customizable links, supercharging audience engagement.
-              </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#4B3F6B]">
+        <div className="container ">
+          <div className="flex flex-col items-center">
+            <h2 className="text-white md:font-bold md:text-[40px] font-normal text-[40px] text-center pt-[57px] mb-[32px]">
+              Boost your links today
+            </h2>
+            <button className="text-white md:font-bold md:text-[20px] font-normal text-[20px] bg-[#2BD0D0] hover:bg-[#9AE3E3] py-[15px] px-[40px] rounded-[50px] mb-[69px]">
+              Get Started
+            </button>
           </div>
         </div>
       </div>
